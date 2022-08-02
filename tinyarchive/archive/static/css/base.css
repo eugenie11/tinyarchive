@@ -1,0 +1,16 @@
+
+
+.page_title {text-align: center;font-size: 36px;font-style:italic;color:black}
+
+
+.breadcrumb {color:black}
+
+.intro {color:black}
+
+body {background-color:rgb(255, 255, 255)}
+
+p {color:black;}
+
+ul {width:750px; height:300px;}
+
+ul > li > a{color:rgb(16, 55, 183)}

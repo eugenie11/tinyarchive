@@ -21,6 +21,7 @@ class ArchiveDocument(models.Model):
 
 
 class Photograph(ArchiveDocument):
+
     photo_type = models.CharField(
         max_length=20,
         choices=list(
