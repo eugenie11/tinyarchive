@@ -1,3 +1,6 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
 
 body .page_title{
     text-align: center;
@@ -15,9 +18,7 @@ body .page_title{
     color:red;
 }
 
-body {
-    background-color:rgb(255, 255, 255);
-}
+
 
 p {
     color:black;
