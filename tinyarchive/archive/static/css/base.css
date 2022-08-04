@@ -7,17 +7,36 @@ body .page_title{
     font-size: 36px;
     font-style:italic;
     color:black;
+    position: relative;
+    width: auto;
+    height: 100px;
 }
 
+.page_title .first{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 25%;
+    top: 0;
+}
+
+.page_title .second{
+    margin-top: 0;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
 
 .breadcrumb {
     color:black;
 }
 
 .intro {
-    color:red;
+    text-align : center;
+    font-family:"Arial";
+    color:black;
 }
-
 
 
 p {
@@ -25,10 +44,20 @@ p {
 }
 
 ul {
-    width:750px; 
+    
+    list-style: none;
+    width:1400px; 
     height:300px;
+    text-align: center;
 }
+
 
 ul > li > a{
     color:rgb(16, 55, 183);
+    margin:50px;
+    float: left;
+    text-indent: 200px;
+    
 }
+
+
