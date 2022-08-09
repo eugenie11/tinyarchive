@@ -19,7 +19,7 @@
                         {% endif %}
                         <li><a class="name" href="/archive/{{item.id}}">{{item.name}}</a></li>
   
-                        <li>{{item.description}}</li>
+                        <li>{{item.description|linebreaks}}</li>
                     </ul>
                 </div>
             </li>
@@ -27,7 +27,7 @@
         </ul>
     </div>
     <div class="exhibit_text">
-        {{exhibit_text}}
+        {{exhibit_text|linebreaks}}
     </div>
 </div>
 
